@@ -30,6 +30,9 @@ gem 'devise'
 # To add images to blog posts
 gem 'paperclip', '~>3.0'
 
+# Save Images Live
+gem 'aws-sdk', '~> 1.20.0'
+
 group :development, :test do 
 	gem 'sqlite3'
 end
