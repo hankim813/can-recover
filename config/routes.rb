@@ -1,4 +1,11 @@
 CanRecover::Application.routes.draw do
+  root "pages#home"
+  get "medical_overview" => "pages#medical_overview"
+  get "story" => "pages#story"
+  get "support" => "pages#support"
+  get "contact" => "pages#contact"
+  get "blog" => "pages#blog"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
