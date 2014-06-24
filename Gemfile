@@ -27,6 +27,9 @@ gem 'bootstrap-sass'
 # To add users and blogging
 gem 'devise'
 
+# To add images to blog posts
+gem 'paperclip', '~>3.0'
+
 group :development, :test do 
 	gem 'sqlite3'
 end
