@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 1.2'
 # Bootstrap
 gem 'bootstrap-sass'
 
+# To add users and blogging
+gem 'devise'
+
 group :development, :test do 
 	gem 'sqlite3'
 end

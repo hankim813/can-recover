@@ -1,4 +1,5 @@
 CanRecover::Application.routes.draw do
+  devise_for :users
   root "pages#home"
   get "medical_overview" => "pages#medical_overview"
   get "story" => "pages#story"
