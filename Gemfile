@@ -33,6 +33,10 @@ gem 'paperclip', '~>3.0'
 # Save Images Live
 gem 'aws-sdk', '~> 1.20.0'
 
+# Pagination
+gem 'will_paginate', '~> 3.0.5'
+gem 'will_paginate-bootstrap'
+
 group :development, :test do 
 	gem 'sqlite3'
 end
