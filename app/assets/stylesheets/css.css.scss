@@ -18,7 +18,7 @@
 /* Homepage overlay */
 
 #parallelogram {
-	width: 120%;
+	width: 60%;
 	height: 500px;
 	-webkit-transform: skew(-20deg);
 	   -moz-transform: skew(-20deg);
@@ -28,7 +28,7 @@
 	position: relative; 
 	z-index: 1;
 	margin-top: -500px;
-	margin-left: -70%;
+	margin-left: -10%;
 }
 
 .homepage-overlay-text {
@@ -40,6 +40,12 @@
 
 .overlay-text-container {
 	width: 100%;
+}
+
+.overlay-text-container h5 {
+	color: #4F7DBF;
+	font-size: 20px;
+	font-family: 'Special Elite', cursive;
 }
 
 .overlay-text-container h3 {
@@ -60,10 +66,6 @@
 	font-family: 'Special Elite', cursive;
 }
 
-.overlay-text-container p {
-	color: #EEF1F4;
-	font-size: 14px;
-}
 
 /* Home page Description */
 
@@ -134,4 +136,90 @@
 	position: relative;
 	display: inline-block;
 	margin-top: -155px;
+}
+
+/* Story Page */
+
+.story-image-container {
+	overflow: hidden;
+	height: 575px;
+}
+
+.story-image-container img {
+	margin-top: -25px;
+	position: relative;
+	z-index: 0;
+	opacity: 0.8;
+	width: 100%;
+}
+
+.story-container {
+	width: 80%;
+	margin: auto;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.story-overlay-text {
+	position: absolute;
+	z-index: 3;
+	margin: -250px auto 0 auto;
+	width: 45%;
+  right: 8%;
+  text-align: right;
+}
+
+.founder-portrait {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.founder-portrait img:first-child {
+	position: relative;
+	padding: 25px;
+	opacity: 0.8;
+	right: 13%
+}
+
+.founder-portrait img:nth-child(2) {
+	position: relative;
+	padding: 25px;
+	opacity: 0.8;
+	left: 7.5%;
+}
+
+.founder-portrait-name {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.founder-portrait-name h1:first-child{
+	display: inline-block;
+	position: relative;
+	right: 19%;
+	bottom: 30px;
+	font-size: 25px;
+}
+
+.founder-portrait-name h1:nth-child(2) {
+	display: inline-block;
+	position: relative;
+	font-size: 25px;
+	left: 12.5%;
+	bottom: 30px;
+}
+
+.founder-portrait-description {
+	width: 78%;
+	margin: 0 auto;
+}
+
+.founder-storybox {
+	width: 45%;
+	padding: 20px;
+	text-align: justify;
+	float: left;
+	margin-bottom: 50px;
 }
