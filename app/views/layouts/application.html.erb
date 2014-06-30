@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>CanRecover</title>
+  <title>CAN Recover Foundation</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Concussion Awareness Network for Student Athletes"/>
+  <meta name="keywords" content="concussion, college, students, athlete, student athlete"/>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= render "layouts/header" %>
 <% flash.each do |name, msg| %>
      <%= content_tag(:div, msg, class: "alert alert-info") %>
 <% end %>
-
+<%= render "layouts/pvc" %> <!-- Patient View Controller -->
 <%= yield %>
+<%= render "layouts/footer" %>
 
 </body>
 </html>

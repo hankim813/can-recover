@@ -1,1 +1,137 @@
 @import 'bootstrap';
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+
+
+/* Home page */
+
+.homepage-image-container {
+	overflow: hidden;
+	height: 575px;
+}
+
+.homepage-image-container img {
+	margin-top: -25px;
+	position: relative;
+	z-index: 0;
+}
+
+/* Homepage overlay */
+
+#parallelogram {
+	width: 120%;
+	height: 500px;
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+	background: #4F7DBF;
+	opacity: 0.8;
+	position: relative; 
+	z-index: 1;
+	margin-top: -500px;
+	margin-left: -70%;
+}
+
+.homepage-overlay-text {
+	position: relative;
+	z-index: 3;
+	margin: -400px auto 0 auto;
+	width: 80%;
+}
+
+.overlay-text-container {
+	width: 100%;
+}
+
+.overlay-text-container h3 {
+	color: #FFF;
+	font-size: 40px;
+	font-family: 'Special Elite', cursive;
+}
+
+.overlay-text-container h2 {
+	color: #FFF;
+	font-size: 43px;
+	font-family: 'Special Elite', cursive;
+}
+
+.overlay-text-container h1 {
+	color: #FFF;
+	font-size: 46px;
+	font-family: 'Special Elite', cursive;
+}
+
+.overlay-text-container p {
+	color: #EEF1F4;
+	font-size: 14px;
+}
+
+/* Home page Description */
+
+.home-description {
+	width: 80%;
+	margin: 180px auto;
+	margin-bottom: 80px !important;
+	position: relative
+}
+
+.home-description h1 {
+	font-size: 50px;
+}
+
+.home-description p {
+	font-size: 13px;
+	text-align: justify;
+}
+
+.home {
+	width: 45%;
+	float: left;
+	display: inline-block;
+}
+
+.home #what-we-do-list p {
+	font-size: 18px;
+	font-weight: lighter !important;
+	line-height: 1.3em;
+}
+
+/* Donate Home Page */
+
+.donate-background {
+	background-color: #F5F8FA;
+	width: 100%;
+}
+
+.donate-container {
+	width: 80%;
+	margin: auto;
+	padding-top: 35px;
+}
+
+.donate-container h1 {
+	font-size: 50px;
+}
+
+.donate-container p {
+	width: 60%;
+	text-align: justify;
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+
+#home-donate-pic {
+	width: 30%;
+	float: left;
+	margin-top: -85px;
+	margin-left: 85px;
+	position: relative;
+}
+
+#paypal {
+	width: 60%;
+	float: left;
+	position: relative;
+	display: inline-block;
+	margin-top: -155px;
+}

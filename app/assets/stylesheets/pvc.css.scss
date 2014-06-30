@@ -1,0 +1,40 @@
+#pvc {
+	width: 50px;
+	height: 120px;
+	position: fixed;
+	z-index: 500;
+	background-color: #BD9712;
+	border-top: 1px solid #EBE9E9;
+	border-left: 1px solid #EBE9E9; 
+	border-bottom: 1px solid #EBE9E9;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	bottom: 25px;
+	right: 0;
+	opacity: 0.65;
+	overflow: hidden;
+}
+
+#pvc:hover {
+	opacity: 1;
+	-webkit-transition: all 0.3s ease-out;
+  -moz-transition:    all 0.3s ease-out;
+  -o-transition:      all 0.3s ease-out;
+  -ms-transition:     all 0.3s ease-out;
+  transition:         all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.patient-view-text  {
+	-ms-transform: rotate(-90deg); /* IE 9 */
+	-moz-transform: rotate(-90deg); /* Firefox */
+	-webkit-transform: rotate(-90deg); /* Safari and Chrome */
+	-o-transform: rotate(-90deg); /* Opera */
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: 55px;
+	color: #FFF;
+	text-align: center;
+}
