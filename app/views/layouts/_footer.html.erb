@@ -26,6 +26,13 @@
 			<%= link_to "Sponsor an Event", support_path %><br>
 			<%= link_to "Shop CAN Recover", support_path %>
 		</p>
-		<div class="center" style="color: #B0B0B0;">PO Box 132, Rye, NH, 03870 <br>© CAN Recover Foundation, Inc. 2014. All Rights Reserved.</div><br><br>
+		<div class="center" style="color: #B0B0B0;">PO Box 132, Rye, NH, 03870 <br>© CAN Recover Foundation, Inc. 2014. All Rights Reserved.<br>
+			<%= link_to "Admin", new_user_session_path %>
+			
+			<% if user_signed_in? %>
+
+			|  <%= link_to 'New Post', new_pin_path %> | <%= link_to "Settings", edit_user_registration_path %> | 
+			<%= link_to "Log Out", destroy_user_session_path, method: :delete %>
+			<% end %></div><br><br>
 	</div><!-- Div Container Ends -->
 </div>

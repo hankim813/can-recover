@@ -8,7 +8,7 @@ CanRecover::Application.routes.draw do
   get "story" => "pages#story"
   get "support" => "pages#support"
   get "contact" => "pages#contact"
-  get "blog" => "pages#blog"
+  get "blog" => "pins#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

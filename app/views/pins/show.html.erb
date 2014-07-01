@@ -1,9 +1,35 @@
-<p id="notice"><%= notice %></p>
+<div class="devise-container">
+	<head>
+		<div class="center">
+			<h1>[ <%= @pin.title %> ]</h1>
+		</div><!-- Header Title Ends -->
+	</head>
+	<br>
+	<div class="center author-date">
+		<p>written by <%= @pin.user.name %></p>
+		<p><%= @pin.created_at.strftime("%B %d, %Y") %></p>
+	</div><!-- Author & Date ends -->
+	<br>
+	<div class="blogimage center">
+		<%= image_tag @pin.image.url %>
+	</div><!-- Blog Post Images -->
+	<br>
+	<body>
+		<div class="blog-body">
+		 <%= simple_format(@pin.description) %>
+		</div><!-- Blog Body Ends -->
+		<br>
+		<div class="center">
+			<p>written by <%= @pin.user.name %></p>
+			<p><%= @pin.created_at.strftime("%B %d, %Y") %></p>
+		</div><!-- Footer Ends -->
+	</body>
+	<div class="center">
+		<% if @pin.user == current_user %>
+			<%= link_to raw('<span class="glyphicon glyphicon-edit"></span> Edit'), edit_pin_path(@pin) %>
+	    <%= link_to raw('<span class="glyphicon glyphicon-trash"></span> Delete'), @pin, method: :delete, data: { confirm: 'This is permanent. Are you sure?' } %>
+		<% end %>
 
-<p>
-  <strong>Description:</strong>
-  <%= @pin.description %>
-</p>
-
-<%= link_to 'Edit', edit_pin_path(@pin) %> |
-<%= link_to 'Back', pins_path %>
+		<%= link_to raw('<span class="glyphicon glyphicon-chevron-left"></span> Back'), pins_path %>
+	</div><!-- Footer links -->
+</div>

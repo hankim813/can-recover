@@ -1,6 +1,8 @@
-<h1>Editing pin</h1>
+<div class="devise-container">
+	<h1>Edit Post</h1>
 
-<%= render 'form' %>
+	<%= render 'form' %>
 
-<%= link_to 'Show', @pin %> |
-<%= link_to 'Back', pins_path %>
+	<%= link_to raw('<span class="glyphicon glyphicon-chevron-left"></span> Back'), pins_path %> |
+	<%= link_to raw('<span class="glyphicon glyphicon-trash"></span> Delete'), @pin, method: :delete, data: { confirm: 'This is permanent. Are you sure?' } %>
+</div>
