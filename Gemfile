@@ -37,6 +37,10 @@ gem 'aws-sdk', '~> 1.20.0'
 gem 'will_paginate', '~> 3.0.5'
 gem 'will_paginate-bootstrap'
 
+# Mailer
+gem 'mail_form'
+gem 'mailcatcher'
+
 group :development, :test do 
 	gem 'sqlite3'
 end

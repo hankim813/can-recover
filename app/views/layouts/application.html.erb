@@ -11,9 +11,6 @@
 </head>
 <body>
 <%= render "layouts/header" %>
-<% flash.each do |name, msg| %>
-     <%= content_tag(:div, msg, class: "alert alert-info") %>
-<% end %>
 <%= render "layouts/pvc" %> <!-- Patient View Controller -->
 <%= yield %>
 <%= render "layouts/footer" %>

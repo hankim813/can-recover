@@ -223,3 +223,54 @@
 	float: left;
 	margin-bottom: 50px;
 }
+
+/* Contact Page */
+
+.contact-container {
+	width: 80%;
+	margin: auto;
+}
+
+/* Medical Overview */
+
+.overview-container {
+	width: 80%;
+	margin: auto;
+	padding-top: 100px;
+	color: #514F4F;
+}
+
+.overview-container h1 {
+	font-size: 50px;
+	letter-spacing: 1px;
+}
+
+.overview-container p {
+	font-size: 12px;
+	width: 70%;
+	margin: auto;
+}
+
+.overview-text p {
+	font-size: 13px;
+	text-align: justify !important;
+}
+
+.overview-text ul {
+	list-style-type: none;
+	width: 70%;
+	margin: auto;
+}
+
+.overview-text li {
+	width: 70%;
+	margin: auto;
+}
+
+.overview-text a {
+	color: #66757F;
+}
+
+.overview-text a:hover {
+	color: #4F7DBF !important; 
+}
