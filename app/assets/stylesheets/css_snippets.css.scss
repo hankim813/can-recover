@@ -18,11 +18,6 @@ a {
 a:hover {
 	background-color: transparent !important;
 	text-decoration: none !important;
-	color: inherit !important;
-}
-
-a:visited {
-	color: inherit !important;
 }
 
 /* CSS snippet tools */
@@ -87,4 +82,12 @@ hr {
 	float: left;
 	display: inline-block;
 	margin: 0 15px;
+}
+
+.paginate a {
+	color: inherit;
+}
+
+.paginate a:hover {
+	color: #4F7DBF; 
 }
