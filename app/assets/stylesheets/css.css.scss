@@ -90,23 +90,27 @@
 
 .home-description h1 {
 	font-size: 50px;
+	font-family: arial;
 }
 
 .home-description p {
 	font-size: 13px;
 	text-align: justify;
+	font-family: arial;
 }
 
 .home {
 	width: 45%;
 	float: left;
 	display: inline-block;
+	font-family: arial;
 }
 
 .home #what-we-do-list p {
-	font-size: 18px;
+	font-size: 13px;
 	font-weight: lighter !important;
 	line-height: 1.3em;
+	color: #898686;
 }
 
 /* Donate Home Page */
@@ -120,6 +124,7 @@
 	width: 80%;
 	margin: auto;
 	padding-top: 35px;
+	font-family: arial;
 }
 
 .donate-container h1 {
@@ -132,6 +137,7 @@
 	display: inline-block;
 	float: left;
 	position: relative;
+	font-family: arial;
 }
 
 #home-donate-pic {
@@ -170,6 +176,12 @@
 	margin: auto;
 	padding-top: 35px;
 	padding-bottom: 35px;
+	font-family: arial;
+}
+
+.story-container p {
+	font-family: arial;
+	font-size: 13px;
 }
 
 .story-overlay-text {
@@ -213,6 +225,7 @@
 	right: 19%;
 	bottom: 30px;
 	font-size: 25px;
+	font-family: arial;
 }
 
 .founder-portrait-name h1:nth-child(2) {
@@ -221,6 +234,7 @@
 	font-size: 25px;
 	left: 12.5%;
 	bottom: 30px;
+	font-family: arial;
 }
 
 .founder-portrait-description {
@@ -234,6 +248,10 @@
 	text-align: justify;
 	float: left;
 	margin-bottom: 50px;
+}
+
+.founder-storybox p {
+	font-family: arial;
 }
 
 /* Contact Page */
@@ -255,12 +273,14 @@
 .overview-container h1 {
 	font-size: 50px;
 	letter-spacing: 1px;
+	font-family: arial;
 }
 
 .overview-container p {
 	font-size: 12px;
 	width: 70%;
 	margin: auto;
+	font-family: arial;
 }
 
 .overview-text p {
@@ -289,8 +309,65 @@
 
 /* Support Page */
 
+.support-image-container {
+	overflow: hidden;
+	height: 575px;
+}
+
+.support-image-container img {
+	position: relative;
+	z-index: 0;
+	opacity: 0.78;
+	width: 100%;
+	padding-top: 75px;
+}
+
+.support-overlay-text {
+	position: absolute;
+	z-index: 3;
+	margin: -150px auto 0 auto;
+	width: 100%;
+	left: 7%;
+  text-align: left;
+}
+
 .support-container {
 	width: 80%;
 	margin: auto;
-	padding-top: 120px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.support-container p {
+	font-family: arial;
+}
+
+.support-container h1 {
+	font-size: 50px;
+	font-family: arial;
+}
+
+.support-background {
+	background-color: #F5F8FA;
+	width: 100%;
+}
+
+.supportbox {
+	width: 32%;
+	display: inline-block;
+	float: left;
+	border: 1px solid #D2CECE;
+	box-shadow: 1px 1px 1px #858282;
+	margin: 5px 5px 40px 5px;
+	padding: 25px;
+	height: 275px;
+}
+
+.supportbox h3 {
+	text-align: center;
+	font-family: arial;
+}
+
+.supportbox p {
+	font-family: arial;
 }

@@ -1,3 +1,63 @@
-<div class="support-container">
-	
-</div>
+<div class="support-image-container center">
+	<%= image_tag("support.jpg", alt: "Babson Rugby") %>
+</div><!-- Support Image Ends -->
+
+<div class="support-overlay-text">
+	<div class="overlay-text-container">
+		<h1>"None of us is as smart as all of us."</h1>
+		<h5>- Ken Blanchard</h5>
+	</div>
+</div><!-- Support Overlay Text Ends -->
+
+<div class="support-container clear">
+		<h1 class="center">Want to Help?</h1><br><br>
+			<div class="home" style="margin-left: 3%">
+				<p style="text-align: justify">Your support is very important to us. Without your donations, time volunteered, word of mouth, and all that our supporters contribute, CAN Recover would not be able to deliver its mission to thousands of people who need it. We greatly appreciate your support for our cause.</p><br>
+				<p>There are two ways to donate money directly to CAN Recover Foundation, Inc:</p><br>
+				<p>1.	Mail a check written out to “CAN Recover Foundation, Inc.” to PO Box 132, Rye, NH 03870</p>
+				<p>2.	Donate through PayPal with your credit card.</p><br><br>
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="KWWYGZGFEFL46">
+					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+				</form>
+			</div>
+			<div class="home right">
+				<%= image_tag "aaron.jpg", alt: "Aaron Rocha, Co-Founder of CAN Recover", class: "img-thumbnail" %>
+			</div>
+	</div>
+</div><!-- Support Container Ends -->
+
+<div class="support-background clear">
+	<div class="support-container center">
+		<h1>Other Ways</h1>
+		<h2>&#x21c2;</h2>
+
+		<div class="supportbox">
+			<h3>Join Our Network</h3>
+			<br>
+			<%= image_tag "join-network.png" %>
+			<br><br><br>
+			<p style="text-align: justify">Stay up to date by sending us your contact information. We'll give you our latest news, upcoming events, and breakthroughs in research.</p>
+		</div>
+
+		<div class="supportbox">
+			<h3>Volunteer</h3>
+			<br>
+			<%= image_tag "volunteer.png" %>
+			<br><br><br>
+			<p style="text-align: justify">If you or your organization would like to volunteer time or services to CAN Recover, please fill out the form below and we will get in touch with you on how you can start helping support our cause!</p>
+		</div>
+
+		<div class="supportbox">
+			<h3>Organize an Event</h3>
+			<br>
+			<%= image_tag "organize.png" %>
+			<br><br><br>
+			<p style="text-align: justify">If you or your organization would like to put on an awareness of fundraising event on behalf of CAN Recover, please fill out the form below and we can start planning together!</p>
+		</div>
+		<%= button_to "Contact Us Now", contact_path, class: "btn btn-lg btn-success", method: "get" %>
+
+	</div><!-- Support Container Ends -->
+</div><!-- Support Background Ends -->
