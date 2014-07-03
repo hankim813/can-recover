@@ -14,7 +14,7 @@ function processForm()
 		return;
 	}
 
-	else if (myform.fmessage.value="")
+	else if (myform.fmessage.value=="")
 	{
 		alert("Message is required");
 		myform.fmessage.focus();
