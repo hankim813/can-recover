@@ -15,13 +15,13 @@ function processForm()
 	}
 
 	else if (myform.fmessage.value="")
-	
+	{
 		alert("Message is required");
 		myform.fmessage.focus();
 		return;
-	
+	}
 	else
 	{
 		myform.submit();
 	}
-}
+};
