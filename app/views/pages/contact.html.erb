@@ -1,4 +1,32 @@
-<div class="contact-container">
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="contact-image-container center">
+	<%= image_tag("contactus.jpg", alt: "Babson Rugby") %>
+</div><!-- Contact Image Ends -->
 
+<div class="contact-overlay-text">
+	<div class="overlay-text-container">
+		<h1>Contact Us Today</h1>
+	</div>
+</div><!-- Contact Overlay Text Ends -->
+
+<div class="contact-container">
+	  	<br>
+	  <form method="post" action="mailto:canrecover@gmail.com" enctype="text/plain" id="form1">	
+	  	<div class="input-group">
+	  		<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+			  <input type="text" class="form-control" placeholder="Your Name" name="Name" id="fname">
+			</div>
+				<br>
+			<div class="input-group">
+			  <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+			  <input type="text" class="form-control" placeholder="Your Email" name="Email" id="femail">
+			</div>
+				<br>
+			<div class="input-group">
+			  <span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
+			  <textarea rows="10" type="text" class="form-control" placeholder="Your Message" name="Message" id="fmessage"></textarea>
+			</div>
+			<br>
+			<button type="button" onclick="processForm()" class="btn btn-lg btn-info pull-left">Send</button>
+		</form><!-- Form Ends -->
+			<br><br><br><br><br>
 </div><!-- Contact Container -->

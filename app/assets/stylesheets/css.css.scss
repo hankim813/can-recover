@@ -254,13 +254,6 @@
 	font-family: arial;
 }
 
-/* Contact Page */
-
-.contact-container {
-	width: 80%;
-	margin: auto;
-}
-
 /* Medical Overview */
 
 .overview-container {
@@ -370,4 +363,37 @@
 
 .supportbox p {
 	font-family: arial;
+}
+
+/* Contact Us Page */
+
+.contact-image-container {
+	overflow: hidden;
+	height: 575px;
+}
+
+.contact-image-container img {
+	position: relative;
+	z-index: 0;
+	opacity: 0.78;
+	width: 100%;
+	margin-top: -95px;
+}
+
+.contact-container {
+	width: 80%;
+	margin: auto;
+}
+
+.contact-overlay-text {
+	position: absolute;
+	z-index: 3;
+	margin: -120px auto 0 auto;
+	width: 100%;
+	left: 9%;
+  text-align: left;
+}
+
+.contact-overlay-text h1 {
+	font-size: 50px;
 }
