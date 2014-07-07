@@ -10,28 +10,29 @@
 		<%= button_to "Learn How", medical_overview_path, class: "btn btn-lg btn-warning", method: "get" %>
 	</div>
 </div><!-- Homepage Overlay Text Ends -->
-
-<div class="home-description clear">
-	<div class="home">
-		<h1>The CAN Recover Foundation</h1><br><br>
-		<p>CAN Recover Foundation’s mission is to provide support for student-athlete’s suffering post-concussion syndrome and educate those in the community surrounding them. Studies have shown that a student-athlete undergoing a prolonged concussions recovery would find another student-athlete who has experienced it first hand to be most trustworthy, effective, and empathetic. CAN Recover is the only organization to provide this support.</p>
-		<br><br>
-		<%= button_to "Read Our Story", story_path, class: "btn btn-lg btn-primary", method: "get" %>
-	</div>
-	<div class="vertical-hr"></div>
-	<div class="home">
-		<h1>What We Do.</h1>
-		<p style="color: #A1A3A5; font-size: 13px; padding-left: 5px;">We protect the health of student athletes.</p>
-		<br><br>
-		<div id="what-we-do-list">
-			<h3>Support Patients</h3>
-				<p>The first and only peer-to-peer support network provided for student-athletes suffering post-concussion syndrome.</p>
-			<h3>Educate the Community</h3>
-				<p>Through fundraisers and awareness events, we help educate the community surrounding student-athletes to create a healthy environment.</p>
-			<h3>Expedite Clinical Research<h3>
-				<p>We collaborate with some of the top research teams in the world on how to expedite efforts on traumatic brain injury research!</p></div>
-	</div>
-</div><!-- Home Description Ends -->
+<div class="home-background">
+	<div class="home-description clear">
+		<div class="home">
+			<h1>The CAN Recover Foundation</h1><br><br>
+			<p>CAN Recover Foundation’s mission is to provide support for student-athlete’s suffering post-concussion syndrome and educate those in the community surrounding them. Studies have shown that a student-athlete undergoing a prolonged concussions recovery would find another student-athlete who has experienced it first hand to be most trustworthy, effective, and empathetic. CAN Recover is the only organization to provide this support.</p>
+			<br><br>
+			<%= button_to "Read Our Story", story_path, class: "btn btn-lg btn-primary", method: "get" %>
+		</div>
+		<div class="vertical-hr"></div>
+		<div class="home">
+			<h1>What We Do.</h1>
+			<p style="color: #A1A3A5; font-size: 13px; padding-left: 5px;">We protect the health of student athletes.</p>
+			<br><br>
+			<div id="what-we-do-list">
+				<h3>Support Patients</h3>
+					<p>The first and only peer-to-peer support network provided for student-athletes suffering post-concussion syndrome.</p>
+				<h3>Educate the Community</h3>
+					<p>Through fundraisers and awareness events, we help educate the community surrounding student-athletes to create a healthy environment.</p>
+				<h3>Expedite Clinical Research<h3>
+					<p>We collaborate with some of the top research teams in the world on how to expedite efforts on traumatic brain injury research!</p></div>
+		</div>
+	</div><!-- Home Description Ends -->
+</div><!-- Home Background Ends -->
 <%= render "layouts/donate" %>
 
 

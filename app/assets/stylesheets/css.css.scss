@@ -80,12 +80,17 @@
 
 
 /* Home page Description */
+.home-background {
+	width: 100%;
+	height: 100%;
+}
 
 .home-description {
 	width: 80%;
-	margin: 180px auto;
+	margin: 125px auto;
 	margin-bottom: 80px !important;
-	position: relative
+	position: relative;
+	padding-top: 50px;
 }
 
 .home-description h1 {

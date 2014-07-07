@@ -1,1 +1,25 @@
 <div id="pvc"><span class="patient-view-text">Patient View</span></div>
+<div id="pvc-inner"><p>www.CANrecover.org is specifically designed for concussion patients who often have difficulty reading screens. Patient View 1 and 2 are the two most comfortable designs we identified for concussion patients. The Traditional View is targeted towards nonconcussion patients.</p>
+<p>
+	<ul>
+		<li id="pv1">Patient View 1 [Default]<li>
+		<li>Patient View 2</li>
+		<li>Traditional View</li>
+		<li>Font-size +</li>
+		<li>Font-size -</li>
+	</ul>
+</p></div>
+
+<!-- jQuery Effect for Slider Tab -->
+<script>
+	$(document).ready(function(){
+		$('#pvc').click(function(){
+			$('#pvc').toggleClass("add-bottom");
+			$('#pvc-inner').toggleClass("add-bottom-2");
+		});
+
+		$('#pv1').click(function() {
+			$('.home-background').addClass("pv1-background");
+		});
+	}); 
+</script>
