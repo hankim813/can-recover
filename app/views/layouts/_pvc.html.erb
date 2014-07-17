@@ -3,7 +3,7 @@
 <p>
 	<ul>
 		<li id="pv1">Patient View 1 [Default]<li>
-		<li>Patient View 2</li>
+		<li id="pv2">Patient View 2</li>
 		<li>Traditional View</li>
 		<li>Font-size +</li>
 		<li>Font-size -</li>
@@ -19,7 +19,19 @@
 		});
 
 		$('#pv1').click(function() {
-			$('.home-background').addClass("pv1-background");
+			$('.navbar-background-color, .home-background, .home, .story-background, .overview-background, .support-1-background, .supportbox, .blog-background, .contact-background').css({"color" : "#FFF", 'background-color' : "#4B4B4B"});
+			$('.navlinks > a, .home p').css("color", "#FFF");
+			$('.donate-background, .support-background').css({"background-color" : "#1C1C1C", "color" : "#FFF"});
+			$('.footer-background').css("background-color", "#151515");
+			$('.footer-background a, .footer-background p, .footer-address').css("color", "#FFF");
+		});
+
+		$('#pv2').click(function() {
+			$('.home-background, .home, .navbar-background-color, .story-background, .overview-background, .support-1-background, .supportbox, .blog-background, .contact-background').css({"background-color": "#D8D8D8", "color": "black"});
+			$(".navlinks a, .home p").css("color", "black");
+			$('.donate-background, .support-background').css({"background-color" : "#C4C4C4", "color" : "black"});
+			$('.footer-background').css("background-color", "#ABABAB");
+			$('.footer-background a, .footer-background p, .footer-address').css("color", "black");
 		});
 	}); 
 </script>

@@ -20,15 +20,20 @@
 }
 
 .footer-container a {
-	color: #FFF !important;
+	color: #FFF;
 }
 
 .footer-container a:hover {
-	background-color: transparent !important;
-	color: #FFF !important;
+	background-color: transparent;
+	color: #FFF;
 }
 
 .footer-container img {
 	width: 175px;
 	height: auto;
+}
+
+.footer-address {
+	text-align: center;
+	font-family: arial;
 }
