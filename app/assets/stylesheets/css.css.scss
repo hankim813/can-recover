@@ -6,7 +6,7 @@
 .devise-container {
 	width: 80%;
 	margin: auto;
-	padding: 130px 15px 50px 15px;
+	padding: 130px 75px 50px 75px;
 }
 
 .checkbox {
@@ -25,6 +25,7 @@
 	margin-top: -25px;
 	position: relative;
 	z-index: 0;
+	width: 100%;
 }
 
 /* Homepage overlay */
@@ -55,8 +56,8 @@
 }
 
 .overlay-text-container h5 {
-	color: #4F7DBF;
-	font-size: 20px;
+	color: #1C1C1C;
+	font-size: 22px;
 	font-family: 'Special Elite', cursive;
 }
 
@@ -74,7 +75,7 @@
 
 .overlay-text-container h1 {
 	color: #FFF;
-	font-size: 46px;
+	font-size: 50px;
 	font-family: 'Special Elite', cursive;
 }
 
@@ -86,7 +87,7 @@
 	background-color: #4B4B4B;
 	color: #FFF;
 	border-top: 3px solid #BD9712;
-	margin-top: 124px;
+	margin-top: 119px;
 }
 
 .home-description {
@@ -98,12 +99,12 @@
 }
 
 .home-description h1 {
-	font-size: 50px;
+	font-size: 45px;
 	font-family: arial;
 }
 
 .home-description p {
-	font-size: 13px;
+
 	text-align: justify;
 	font-family: arial;
 }
@@ -116,7 +117,7 @@
 }
 
 .home p {
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: lighter !important;
 	line-height: 1.3em;
 	color: #FFF;
@@ -148,6 +149,7 @@
 	float: left;
 	position: relative;
 	font-family: arial;
+	font-size: 16px;
 }
 
 #home-donate-pic {
@@ -198,13 +200,13 @@
 
 .story-container p {
 	font-family: arial;
-	font-size: 13px;
+	font-size: 16px;
 }
 
 .story-overlay-text {
 	position: absolute;
 	z-index: 3;
-	margin: -250px auto 0 auto;
+	margin: -270px auto 0 auto;
 	width: 45%;
   right: 8%;
   text-align: right;
@@ -220,14 +222,14 @@
 	position: relative;
 	padding: 25px;
 	opacity: 0.8;
-	right: 13%
+	right: 12%
 }
 
 .founder-portrait img:nth-child(2) {
 	position: relative;
 	padding: 25px;
 	opacity: 0.8;
-	left: 7.5%;
+	left: 11%;
 }
 
 .founder-portrait-name {
@@ -239,7 +241,7 @@
 .founder-portrait-name h1:first-child{
 	display: inline-block;
 	position: relative;
-	right: 19%;
+	right: 18%;
 	bottom: 30px;
 	font-size: 25px;
 	font-family: arial;
@@ -249,7 +251,7 @@
 	display: inline-block;
 	position: relative;
 	font-size: 25px;
-	left: 12.5%;
+	left: 16.5%;
 	bottom: 30px;
 	font-family: arial;
 }
@@ -261,7 +263,7 @@
 
 .founder-storybox {
 	width: 45%;
-	padding: 20px;
+	padding-left: 50px;
 	text-align: justify;
 	float: left;
 	margin-bottom: 50px;
@@ -269,6 +271,18 @@
 
 .founder-storybox p {
 	font-family: arial;
+	font-size: 16px;
+}
+.founder-sport {
+	width: 80%;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.founder-sport img {
+	width: 100%;
+	height: auto;
+	border: 2px solid #FFF;
 }
 
 /* Medical Overview */
@@ -293,14 +307,14 @@
 }
 
 .overview-container p {
-	font-size: 12px;
+	font-size: 16px;
 	width: 70%;
 	margin: auto;
 	font-family: arial;
+	text-align: justify;
 }
 
 .overview-text p {
-	font-size: 13px;
 	text-align: justify !important;
 }
 
@@ -315,6 +329,13 @@
 	margin: auto;
 }
 
+.overview-text-photos {
+	border: 1.5px solid #FFF;
+	width: 325px;
+	margin: 4px 20px 20px 0;
+	float: left;
+}
+
 /* Support Page */
 
 .support-1-background {
@@ -327,6 +348,7 @@
 .support-image-container {
 	overflow: hidden;
 	height: 555px;
+	width: 100%;
 }
 
 .support-image-container img {
@@ -341,7 +363,6 @@
 	position: absolute;
 	z-index: 3;
 	margin: -150px auto 0 auto;
-	width: 100%;
 	left: 7%;
   text-align: left;
 }
@@ -376,7 +397,7 @@
 	box-shadow: 1px 1px 1px #858282;
 	margin: 5px 5px 40px 5px;
 	padding: 25px;
-	height: 275px;
+	height: 300px;
 	background-color: #4B4B4B;
 }
 
@@ -387,6 +408,7 @@
 
 .supportbox p {
 	font-family: arial;
+	font-size: 16px;
 }
 
 /* Blog */
@@ -417,16 +439,30 @@
 	border-top: 3px solid #BD9712;
 }
 
-.contact-container {
+.contact-wrap {
 	width: 80%;
 	margin: auto;
+	padding-top: 30px;
+}
+
+.contact-container-1 {
+	width: 45%;
+	margin: 0 25px;
+	float: left;
+	display: inline-block;
+}
+
+.contact-container-2 {
+	width: 45%;
+	margin: 15px 25px;
+	float: left;
+	display: inline-block;
 }
 
 .contact-overlay-text {
 	position: absolute;
 	z-index: 3;
 	margin: -120px auto 0 auto;
-	width: 100%;
 	left: 9%;
   text-align: left;
 }

@@ -17,7 +17,7 @@
 		<br>
 		<body>
 			<div class="blog-body">
-			 <%= simple_format(@pin.description) %>
+			 <%= truncate_html((@pin.description), length: 999999999, omission: "...") %>
 			</div><!-- Blog Body Ends -->
 			<br>
 			<div class="center">

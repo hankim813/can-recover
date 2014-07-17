@@ -36,6 +36,9 @@ gem 'aws-sdk', '~> 1.20.0'
 # Pagination
 gem 'will_paginate', '~> 3.0.5'
 
+# Blog Truncation
+gem 'truncate_html', '~> 0.9.2'
+
 group :development, :test do 
 	gem 'sqlite3'
 end

@@ -5,8 +5,8 @@
 		<li id="pv1">Patient View 1 [Default]<li>
 		<li id="pv2">Patient View 2</li>
 		<li id="pv3">Traditional View</li>
-		<li>Font-size +</li>
-		<li>Font-size -</li>
+		<li id="fs-plus">Font-size +</li>
+		<li id="fs-minus">Font-size -</li>
 	</ul>
 </p></div>
 
@@ -24,6 +24,7 @@
 			$('.donate-background, .support-background').css({"background-color" : "#1C1C1C", "color" : "#FFF"});
 			$('.footer-background').css("background-color", "#151515");
 			$('.footer-background a, .footer-background p, .footer-address').css("color", "#FFF");
+			$('.navbar-background-color').css("box-shadow", "1px 1px 1px #2E2E2E")
 		});
 
 		$('#pv2').click(function() {
@@ -32,6 +33,7 @@
 			$('.donate-background, .support-background').css({"background-color" : "#C4C4C4", "color" : "black"});
 			$('.footer-background').css("background-color", "#ABABAB");
 			$('.footer-background a, .footer-background p, .footer-address').css("color", "black");
+			$('.navbar-background-color').css("box-shadow", "1px 1px 1px #B7B7B7");
 		});
 
 		$('#pv3').click(function() {
@@ -40,6 +42,17 @@
 			$('.donate-background, .support-background').css({"background-color" : "#F5F8FA", "color" : "black"});
 			$('.footer-background').css("background-color", "#3E3E3E");
 			$('.footer-background a, .footer-background p, .footer-address').css("color", "#FFF");
+			$('.navbar-background-color').css("box-shadow", "1px 1px 1px #DDDDDD");
+		});
+
+		$('#fs-plus').click(function() {
+			$('.home h1, .home p, .donate-container h1, .donate-container p, .story-container p, .story-container h1, .founder-portrait-name h1, .founder-storybox p, .overview-container h1, .overview-container p, .support-1-background .support-container h1, .support-background .support-container h1, .supportbox h3, .supportbox p, #blogtitle, #blogauthor, #blogbody, .contact-wrap p').css("font-size", "+=1");
+			$('.supportbox').css("height", "+=15");
+		});
+
+		$('#fs-minus').click(function() {
+			$('.home h1, .home p, .donate-container h1, .donate-container p, .story-container p, .story-container h1, .founder-portrait-name h1, .founder-storybox p, .overview-container h1, .overview-container p, .support-1-background .support-container h1, .support-background .support-container h1, .supportbox h3, .supportbox p, #blogtitle, #blogauthor, #blogbody, .contact-wrap p').css("font-size", "-=1");
+			$('.supportbox').css("height", "-=15");
 		});
 	}); 
 </script>

@@ -77,11 +77,20 @@ hr {
 
 .vertical-hr2 {
 	width: 1px; 
-	height: 450px;
+	height: 850px;
 	background-color: #D8DADC;
 	float: left;
 	display: inline-block;
-	margin: 0 15px;
+	margin: 0 0 50px 50px;
+}
+
+.vertical-hr3 {
+	width: 1px; 
+	height: 350px;
+	background-color: #D8DADC;
+	float: left;
+	display: inline-block;
+	margin: 15px 0 0 10px;
 }
 
 .paginate a {
