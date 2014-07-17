@@ -4,7 +4,7 @@
 	<ul>
 		<li id="pv1">Patient View 1 [Default]<li>
 		<li id="pv2">Patient View 2</li>
-		<li>Traditional View</li>
+		<li id="pv3">Traditional View</li>
 		<li>Font-size +</li>
 		<li>Font-size -</li>
 	</ul>
@@ -32,6 +32,14 @@
 			$('.donate-background, .support-background').css({"background-color" : "#C4C4C4", "color" : "black"});
 			$('.footer-background').css("background-color", "#ABABAB");
 			$('.footer-background a, .footer-background p, .footer-address').css("color", "black");
+		});
+
+		$('#pv3').click(function() {
+			$('.home-background, .home, .navbar-background-color, .story-background, .overview-background, .support-1-background, .supportbox, .blog-background, .contact-background').css({"background-color": "#FFF", "color": "black"});
+			$(".navlinks a, .home p").css("color", "black");
+			$('.donate-background, .support-background').css({"background-color" : "#F5F8FA", "color" : "black"});
+			$('.footer-background').css("background-color", "#3E3E3E");
+			$('.footer-background a, .footer-background p, .footer-address').css("color", "#FFF");
 		});
 	}); 
 </script>
