@@ -1,8 +1,10 @@
-<div class="devise-container">
-	<h1>Edit Post</h1>
+<div class="blog-background">
+	<div class="devise-container">
+		<h1>Edit Post</h1>
 
-	<%= render 'form' %>
+		<%= render 'form' %>
 
-	<%= link_to raw('<span class="glyphicon glyphicon-chevron-left"></span> Back'), pins_path %> |
-	<%= link_to raw('<span class="glyphicon glyphicon-trash"></span> Delete'), @pin, method: :delete, data: { confirm: 'This is permanent. Are you sure?' } %>
+		<%= link_to raw('<span class="glyphicon glyphicon-chevron-left"></span> Back'), pins_path %> |
+		<%= link_to raw('<span class="glyphicon glyphicon-trash"></span> Delete'), @pin, method: :delete, data: { confirm: 'This is permanent. Are you sure?' } %>
+	</div>
 </div>

@@ -1,5 +1,5 @@
 .footer-background {
-	background-color: #3E3E3E;
+	background-color: #151515;
 	width: 100%;
 	border-top: 3px solid #BD9712;
 }
@@ -7,6 +7,7 @@
 .footer-container {
 	width: 80%;
 	margin: auto;
+	color: #FFF;
 }
 
 .footer-container p {
@@ -19,12 +20,12 @@
 }
 
 .footer-container a {
-	color: #7F7E7E !important;
+	color: #FFF !important;
 }
 
 .footer-container a:hover {
 	background-color: transparent !important;
-	color: #EAE6E6 !important;
+	color: #FFF !important;
 }
 
 .footer-container img {

@@ -83,6 +83,8 @@
 .home-background {
 	width: 100%;
 	height: 100%;
+	background-color: #4B4B4B;
+	color: #FFF;
 }
 
 .home-description {
@@ -115,13 +117,14 @@
 	font-size: 13px;
 	font-weight: lighter !important;
 	line-height: 1.3em;
-	color: #898686;
+	color: #FFF;
 }
 
 /* Donate Home Page */
 
 .donate-background {
-	background-color: #F5F8FA;
+	background-color: #1C1C1C;
+	color: #FFF;
 	width: 100%;
 }
 
@@ -162,6 +165,11 @@
 }
 
 /* Story Page */
+
+.story-background {
+	color: #FFF;
+	background-color: #4B4B4B;
+}
 
 .story-image-container {
 	overflow: hidden;
@@ -261,11 +269,15 @@
 
 /* Medical Overview */
 
+.overview-background {
+	color: #FFF;
+	background-color: #4B4B4B;
+}
+
 .overview-container {
 	width: 80%;
 	margin: auto;
 	padding-top: 100px;
-	color: #514F4F;
 }
 
 .overview-container h1 {
@@ -297,19 +309,16 @@
 	margin: auto;
 }
 
-.overview-text a {
-	color: #66757F;
-}
-
-.overview-text a:hover {
-	color: #4F7DBF !important; 
-}
-
 /* Support Page */
+
+.support-1-background {
+	color: #FFF;
+	background-color: #4B4B4B;
+}
 
 .support-image-container {
 	overflow: hidden;
-	height: 575px;
+	height: 555px;
 }
 
 .support-image-container img {
@@ -346,7 +355,8 @@
 }
 
 .support-background {
-	background-color: #F5F8FA;
+	background-color: #1C1C1C;
+	color: #FFF;
 	width: 100%;
 }
 
@@ -359,6 +369,7 @@
 	margin: 5px 5px 40px 5px;
 	padding: 25px;
 	height: 275px;
+	background-color: #4B4B4B;
 }
 
 .supportbox h3 {
@@ -370,11 +381,18 @@
 	font-family: arial;
 }
 
+/* Blog */
+
+.blog-background {
+	background-color: #4B4B4B;
+	color: #FFF;
+}
+
 /* Contact Us Page */
 
 .contact-image-container {
 	overflow: hidden;
-	height: 575px;
+	height: 565px;
 }
 
 .contact-image-container img {
@@ -383,6 +401,11 @@
 	opacity: 0.78;
 	width: 100%;
 	margin-top: -95px;
+}
+
+.contact-background {
+	background-color: #4B4B4B;
+	color: #fff;
 }
 
 .contact-container {
