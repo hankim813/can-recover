@@ -1,14 +1,15 @@
 <div id="pvc"><span class="patient-view-text">Patient View</span></div>
-<div id="pvc-inner"><p>www.CANrecover.org is specifically designed for concussion patients who often have difficulty reading screens. Patient View 1 and 2 are the two most comfortable designs we identified for concussion patients. The Traditional View is targeted towards nonconcussion patients.</p>
-<p>
+<div id="pvc-inner">
+	<p>www.CANrecover.org is specifically designed for concussion patients who often have difficulty reading screens. Patient View 1 and 2 are the two most comfortable designs we identified for concussion patients. The Traditional View is targeted towards nonconcussion patients.</p>
 	<ul>
-		<li id="pv1">Patient View 1 [Default]<li>
+		<li id="pv1">Patient View 1 [Default]</li>
 		<li id="pv2">Patient View 2</li>
 		<li id="pv3">Traditional View</li>
+
 		<li id="fs-plus">Font-size +</li>
 		<li id="fs-minus">Font-size -</li>
 	</ul>
-</p></div>
+</div>
 
 <!-- jQuery Effect for Slider Tab -->
 <script>
@@ -46,12 +47,12 @@
 		});
 
 		$('#fs-plus').click(function() {
-			$('.home h1, .home p, .donate-container h1, .donate-container p, .story-container p, .story-container h1, .founder-portrait-name h1, .founder-storybox p, .overview-container h1, .overview-container p, .support-1-background .support-container h1, .support-background .support-container h1, .supportbox h3, .supportbox p, #blogtitle, #blogauthor, #blogbody, .contact-wrap p').css("font-size", "+=1");
+			$('.home h1, .home h3, .home p, .donate-container h1, .donate-container p, .story-container p, .story-container h1, .founder-portrait-name h1, .founder-storybox p, .overview-container h1, .overview-container p, .support-1-background .support-container h1, .support-background .support-container h1, .supportbox h3, .supportbox p, #blogtitle, #blogauthor, #blogbody, .contact-wrap p').css("font-size", "+=1");
 			$('.supportbox').css("height", "+=15");
 		});
 
 		$('#fs-minus').click(function() {
-			$('.home h1, .home p, .donate-container h1, .donate-container p, .story-container p, .story-container h1, .founder-portrait-name h1, .founder-storybox p, .overview-container h1, .overview-container p, .support-1-background .support-container h1, .support-background .support-container h1, .supportbox h3, .supportbox p, #blogtitle, #blogauthor, #blogbody, .contact-wrap p').css("font-size", "-=1");
+			$('.home h1, .home h3, .home p, .donate-container h1, .donate-container p, .story-container p, .story-container h1, .founder-portrait-name h1, .founder-storybox p, .overview-container h1, .overview-container p, .support-1-background .support-container h1, .support-background .support-container h1, .supportbox h3, .supportbox p, #blogtitle, #blogauthor, #blogbody, .contact-wrap p').css("font-size", "-=1");
 			$('.supportbox').css("height", "-=15");
 		});
 	}); 
