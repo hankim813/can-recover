@@ -238,16 +238,20 @@
 
 .founder-portrait img:first-child {
 	position: relative;
-	padding: 25px;
+	margin: 25px;
+	padding: 0;
 	opacity: 0.8;
-	right: 12%
+	right: 12%;
+	border: 2px solid #FFF;
 }
 
 .founder-portrait img:nth-child(2) {
 	position: relative;
-	padding: 25px;
+	margin: 25px;
+	padding: 0;
 	opacity: 0.8;
 	left: 11%;
+	border: 2px solid #FFF;
 }
 
 .founder-portrait-name {
@@ -292,8 +296,6 @@
 	font-size: 16px;
 }
 .founder-sport {
-	width: 80%;
-	margin: auto;
 	padding-top: 20px;
 }
 
@@ -326,7 +328,6 @@
 
 .overview-container p {
 	font-size: 16px;
-	width: 70%;
 	margin: auto;
 	font-family: arial;
 	text-align: justify;
@@ -338,13 +339,6 @@
 
 .overview-text ul {
 	list-style-type: none;
-	width: 70%;
-	margin: auto;
-}
-
-.overview-text li {
-	width: 70%;
-	margin: auto;
 }
 
 .overview-text-photos {

@@ -1,29 +1,29 @@
 <div class="footer-background clear">
-	<div class="footer-container">
+	<div class="footer-container clear">
 		<br><br>
 		<div class="center"><%= image_tag "canrecoverlogo.png", alt: "CanRecover Logo" %></div>
 		<br>
-		<p>Find Support With Us
+		<p><strong>Find Support With Us</strong>
 			<br><br>
 			<%= link_to "Medical Overview", medical_overview_path %><br>
 			<%= link_to "Contact Us", contact_path %><br>
 		</p>
 
-		<p>About CAN Recover
+		<p><strong>About CAN Recover</strong>
 			<br><br>
 			<%= link_to "Our Stories", story_path %><br>
 			<%= link_to "Blog", blog_path %><br>
-			<%= link_to "twitter", "https://twitter.com/CANrecover", target: "_blank" %><br>
-			<%= link_to "facebook", "http://www.facebook.com/CANrecover", target: "_blank" %>
+			<%= link_to "Twitter", "https://twitter.com/CANrecover", target: "_blank" %><br>
+			<%= link_to "Facebook", "http://www.facebook.com/CANrecover", target: "_blank" %>
 		</p>
 
-		<p>How to Help
+		<p><strong>How to Help</strong>
 			<br><br>
 			<%= link_to "Donate", support_path %><br>
-			<%= link_to "Volunteer", support_path %><br>
-			<%= link_to "Sponsor an Event", support_path %>
+			<%= link_to "Volunteer", contact_path %><br>
+			<%= link_to "Sponsor an Event", contact_path %>
 		</p>
-		<div class="footer-address">PO Box 132, Rye, NH, 03870 <br>© CAN Recover Foundation, Inc. 2014. All Rights Reserved.<br>
+		<div class="footer-address clear"><br>PO Box 132, Rye, NH, 03870 <br>© CAN Recover Foundation, Inc. 2014. All Rights Reserved.<br>
 			<%= link_to "Admin", new_user_session_path %>
 			
 			<% if user_signed_in? %>
